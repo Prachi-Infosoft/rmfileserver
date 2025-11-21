@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="mr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>बिलबोली सॉफ्टवेअर</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Noto Sans Devanagari", "Mukta", "Segoe UI", system-ui,
+          -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: radial-gradient(circle at top, #fef6ff 10%, #ffe8f3 40%, #fdf0ff 90%);
+        color: #3c1f3f;
+      }
+
+      .card {
+        width: min(900px, 96vw);
+        background: #ffffff;
+        border-radius: 32px;
+        padding: 48px;
+        box-shadow: 0 30px 80px rgba(173, 65, 122, 0.18);
+        border: 2px solid rgba(173, 65, 122, 0.1);
+      }
+
+      h1 {
+        font-size: clamp(2.3rem, 5vw, 3.8rem);
+        margin: 0;
+        color: #a2195b;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        font-size: clamp(1.4rem, 3vw, 2rem);
+        margin: 0.8rem 0 1.8rem;
+        text-align: center;
+        color: #5e1540;
+      }
+
+      .badge-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+      }
+
+      .badge {
+        padding: 0.6rem 1.4rem;
+        border-radius: 999px;
+        border: 1px solid rgba(93, 23, 81, 0.2);
+        background: rgba(255, 237, 247, 0.8);
+        font-weight: 600;
+        color: #5d1751;
+      }
+
+      .highlight {
+        font-size: 1.15rem;
+        line-height: 1.8rem;
+        text-align: center;
+        margin: 1.5rem auto;
+        color: #381231;
+        max-width: 640px;
+      }
+
+      .pill {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        margin: 0.4rem;
+        background: #ffeff8;
+        border-radius: 999px;
+        font-weight: 600;
+        color: #962455;
+        border: 1px dashed rgba(150, 36, 85, 0.4);
+      }
+
+      section {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(92, 22, 65, 0.15);
+      }
+
+      section p {
+        font-size: 1.1rem;
+        line-height: 1.9rem;
+        margin: 0 0 1.2rem;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 2.5rem;
+        font-weight: 600;
+        color: #5e1540;
+      }
+
+      @media (max-width: 640px) {
+        .card {
+          padding: 32px 24px;
+          border-radius: 24px;
+        }
+        .badge-row {
+          gap: 0.6rem;
+        }
+        .pill {
+          display: block;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <h1>REAL MOLD SOFTWARE</h1>
+      <h2>सब होता है ! सबकुछ होता है !</h2>
+
+      <div class="badge-row">
+        <span class="badge">किराणा बिलिंग</span>
+        <span class="badge">होलसेल / रिटेल</span>
+        <span class="badge">GST व्यवस्थापन</span>
+      </div>
+
+      <p class="highlight">
+        “बिलबोली” सॉफ्टवेअरची निर्मिती विविध प्रकारचे बिल बनविण्यासाठी
+        झालेली आहे. त्यातील याच वैशिष्टयामुळे आजपर्यत अवघड वाटणारी मराठी
+        किराणा यादी सोप्या पद्धतीने बनविणे शक्य झाले आहे. यामुळेच किराणा
+        दुकानदारांनी बिलबोली सॉफ्टवेअरला पसंती दिली आहे. त्यात बिलिंग
+        बरोबरच अकाऊंट, स्टॉक, GST हे सर्व मुद्दे सोप्या पद्धतीने समाविष्ट
+        केलेले आहे.
+      </p>
+
+      <div class="badge-row">
+        <span class="pill">दिल जैसा बिल ! बिल जैसा फील !</span>
+        <!-- <span class="pill">बिल जैसा फील !</span> -->
+        <!-- <span class="pill">मराठी किराणा बिलिंग</span> -->
+      </div>
+
+      <section>
+        <p>
+          कुठल्याही प्रकारचे बिल बनविण्याची मराठीत सोपी, सोयीस्कर व सुटसुटीत
+          पद्धत म्हणजे “बिलबोली सॉफ्टवेअर”.
+        </p>
+        <p>
+          आपले अकाऊंट, स्टॉक, GST सोप्या पद्धतीने व्यवस्थापन करणारी पद्धत
+          म्हणजे “बिलबोली सॉफ्टवेअर”.
+        </p>
+        <p>
+          किराणा दुकानदार, होलसेल व रिटेल काऊंटर यांची पसंती म्हणजे
+          “बिलबोली सॉफ्टवेअर”.
+        </p>
+        <p>
+          अनावश्यक मँन्युअल सिस्टम टाळून वेळ वाचविणारी पद्धत म्हणजेच
+          “बिलबोली सॉफ्टवेअर”.
+        </p>
+      </section>
+
+      <footer>
+        बिलबोली सॉफ्टवेअर – तुमचा स्मार्ट बिलिंग साथी
+      </footer>
+    </main>
+  </body>
+</html>
+
